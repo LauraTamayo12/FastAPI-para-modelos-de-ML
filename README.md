@@ -25,6 +25,7 @@ Una vez desplegada, la API se pudo probar en: [https://fe6b-34-150-163-63.ngrok-
 1. Preprocesamiento y escalado de datos
 3. Entrenamiento del modelo Random Forest
 4. Guardado del modelo y el escalador
+
 ![image](https://github.com/user-attachments/assets/049191dc-a8ab-4938-b174-3a1b6a87212e)
 
 6. Implementación de una API REST con FastAPI
