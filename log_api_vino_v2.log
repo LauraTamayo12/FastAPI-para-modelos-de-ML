@@ -1,0 +1,40 @@
+2025-03-28 04:39:50,755 - INFO - Opening tunnel named: http-8000-09a5031e-8cf9-47dc-a862-6500b39267bc
+2025-03-28 04:39:50,800 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="no configuration paths supplied"
+2025-03-28 04:39:50,801 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="using configuration at default config path" path=/root/.config/ngrok/ngrok.yml
+2025-03-28 04:39:50,801 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="open config file" path=/root/.config/ngrok/ngrok.yml err=nil
+2025-03-28 04:39:50,897 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-03-28 04:39:51,000 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="client session established" obj=tunnels.session
+2025-03-28 04:39:51,000 - INFO - t=2025-03-28T04:39:50+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-03-28 04:39:51,016 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=start pg=/api/tunnels id=6deb9481f7731268
+2025-03-28 04:39:51,016 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=end pg=/api/tunnels id=6deb9481f7731268 status=200 dur=383.058µs
+2025-03-28 04:39:51,019 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=start pg=/api/tunnels id=185fd7692515219e
+2025-03-28 04:39:51,019 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=end pg=/api/tunnels id=185fd7692515219e status=200 dur=155.136µs
+2025-03-28 04:39:51,019 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=start pg=/api/tunnels id=4da63428c4b66371
+2025-03-28 04:39:51,047 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg="started tunnel" obj=tunnels name=http-8000-09a5031e-8cf9-47dc-a862-6500b39267bc addr=http://localhost:8000 url=https://0908-34-150-163-63.ngrok-free.app
+2025-03-28 04:39:51,047 - INFO - t=2025-03-28T04:39:51+0000 lvl=info msg=end pg=/api/tunnels id=4da63428c4b66371 status=201 dur=30.205226ms
+2025-03-28 04:40:13,705 - INFO - t=2025-03-28T04:40:13+0000 lvl=info msg="join connections" obj=join id=5a729560d6ed l=127.0.0.1:8000 r=191.156.159.26:64080
+2025-03-28 04:40:15,192 - INFO - t=2025-03-28T04:40:15+0000 lvl=info msg="join connections" obj=join id=67da4c5fc3a9 l=127.0.0.1:8000 r=191.156.150.60:64081
+2025-03-28 04:40:30,696 - INFO - t=2025-03-28T04:40:30+0000 lvl=info msg="join connections" obj=join id=2b5fe0cbf7d2 l=127.0.0.1:8000 r=191.156.151.138:64092
+2025-03-28 04:41:07,305 - INFO - t=2025-03-28T04:41:07+0000 lvl=info msg="join connections" obj=join id=e67864d787e1 l=127.0.0.1:8000 r=54.86.50.139:21987
+2025-03-28 04:41:34,868 - INFO - t=2025-03-28T04:41:34+0000 lvl=info msg="join connections" obj=join id=9e3ca672ea65 l=127.0.0.1:8000 r=54.86.50.139:21987
+2025-03-28 04:41:34,883 - INFO - Entrada: {'alcohol': 13.0, 'malic_acid': 2.3, 'ash': 2.4, 'alcalinity_of_ash': 15.6, 'magnesium': 100.0, 'total_phenols': 2.5, 'flavanoids': 2.2, 'nonflavanoid_phenols': 0.3, 'proanthocyanins': 1.8, 'color_intensity': 5.5, 'hue': 1.04, 'od280_od315_of_diluted_wines': 3.1, 'proline': 1065.0} → Predicción: 0.0
+2025-03-28 04:41:50,208 - INFO - t=2025-03-28T04:41:50+0000 lvl=info msg="join connections" obj=join id=49bceb62df3e l=127.0.0.1:8000 r=54.86.50.139:3969
+2025-03-28 04:41:50,219 - INFO - Entrada: {'alcohol': 12.4, 'malic_acid': 1.1, 'ash': 2.0, 'alcalinity_of_ash': 19.5, 'magnesium': 87.0, 'total_phenols': 1.2, 'flavanoids': 0.9, 'nonflavanoid_phenols': 0.27, 'proanthocyanins': 1.3, 'color_intensity': 4.2, 'hue': 1.02, 'od280_od315_of_diluted_wines': 2.1, 'proline': 520.0} → Predicción: 1.0
+2025-03-28 04:42:00,616 - INFO - t=2025-03-28T04:42:00+0000 lvl=info msg="join connections" obj=join id=455eb0002a8e l=127.0.0.1:8000 r=54.86.50.139:45580
+2025-03-28 04:42:00,625 - INFO - Entrada: {'alcohol': 14.1, 'malic_acid': 3.2, 'ash': 2.5, 'alcalinity_of_ash': 20.4, 'magnesium': 110.0, 'total_phenols': 1.8, 'flavanoids': 0.8, 'nonflavanoid_phenols': 0.35, 'proanthocyanins': 1.7, 'color_intensity': 10.5, 'hue': 0.96, 'od280_od315_of_diluted_wines': 2.0, 'proline': 1280.0} → Predicción: 2.0
+2025-03-28 04:42:12,102 - INFO - t=2025-03-28T04:42:12+0000 lvl=info msg="join connections" obj=join id=902ef0d35a9a l=127.0.0.1:8000 r=54.86.50.139:3969
+2025-03-28 04:42:12,112 - INFO - Entrada: {'alcohol': 13.4, 'malic_acid': 4.3, 'ash': 2.5, 'alcalinity_of_ash': 22.5, 'magnesium': 118.0, 'total_phenols': 0.9, 'flavanoids': 0.2, 'nonflavanoid_phenols': 0.43, 'proanthocyanins': 1.95, 'color_intensity': 13.2, 'hue': 0.55, 'od280_od315_of_diluted_wines': 1.5, 'proline': 750.0} → Predicción: 2.0
+2025-03-28 04:42:37,050 - INFO - t=2025-03-28T04:42:37+0000 lvl=info msg="join connections" obj=join id=3aab1dadf802 l=127.0.0.1:8000 r=54.86.50.139:9317
+2025-03-28 04:42:37,059 - INFO - Entrada: {'alcohol': 13.2, 'malic_acid': 1.78, 'ash': 2.14, 'alcalinity_of_ash': 11.2, 'magnesium': 100.0, 'total_phenols': 2.65, 'flavanoids': 2.76, 'nonflavanoid_phenols': 0.26, 'proanthocyanins': 1.28, 'color_intensity': 4.38, 'hue': 1.05, 'od280_od315_of_diluted_wines': 3.4, 'proline': 1050.0} → Predicción: 0.0
+2025-03-28 04:42:39,464 - INFO - t=2025-03-28T04:42:39+0000 lvl=info msg="join connections" obj=join id=b74afc2a24a7 l=127.0.0.1:8000 r=54.86.50.139:13043
+2025-03-28 04:42:39,474 - INFO - Entrada: {'alcohol': 13.2, 'malic_acid': 1.78, 'ash': 2.14, 'alcalinity_of_ash': 11.2, 'magnesium': 100.0, 'total_phenols': 2.65, 'flavanoids': 2.76, 'nonflavanoid_phenols': 0.26, 'proanthocyanins': 1.28, 'color_intensity': 4.38, 'hue': 1.05, 'od280_od315_of_diluted_wines': 3.4, 'proline': 1050.0} → Predicción: 0.0
+2025-03-28 04:48:28,884 - INFO - t=2025-03-28T04:48:28+0000 lvl=info msg="join connections" obj=join id=04613a92b6b1 l=127.0.0.1:8000 r=54.86.50.139:1366
+2025-03-28 04:48:28,912 - INFO - Entrada: {'alcohol': 13.0, 'malic_acid': 2.3, 'ash': 2.4, 'alcalinity_of_ash': 15.6, 'magnesium': 100.0, 'total_phenols': 2.5, 'flavanoids': 2.2, 'nonflavanoid_phenols': 0.3, 'proanthocyanins': 1.8, 'color_intensity': 5.5, 'hue': 1.04, 'od280_od315_of_diluted_wines': 3.1, 'proline': 1065.0} → Predicción: 0.0
+2025-03-28 04:49:12,604 - INFO - t=2025-03-28T04:49:12+0000 lvl=info msg="join connections" obj=join id=ee7173cc9cee l=127.0.0.1:8000 r=54.86.50.139:11787
+2025-03-28 04:49:12,618 - INFO - Entrada: {'alcohol': 12.4, 'malic_acid': 1.1, 'ash': 2.0, 'alcalinity_of_ash': 19.5, 'magnesium': 87.0, 'total_phenols': 1.2, 'flavanoids': 0.9, 'nonflavanoid_phenols': 0.27, 'proanthocyanins': 1.3, 'color_intensity': 4.2, 'hue': 1.02, 'od280_od315_of_diluted_wines': 2.1, 'proline': 520.0} → Predicción: 1.0
+2025-03-28 04:49:44,209 - INFO - t=2025-03-28T04:49:44+0000 lvl=info msg="join connections" obj=join id=e7d230dd5231 l=127.0.0.1:8000 r=54.86.50.139:64242
+2025-03-28 04:49:44,219 - INFO - Entrada: {'alcohol': 14.1, 'malic_acid': 3.2, 'ash': 2.5, 'alcalinity_of_ash': 20.4, 'magnesium': 110.0, 'total_phenols': 1.8, 'flavanoids': 0.8, 'nonflavanoid_phenols': 0.35, 'proanthocyanins': 1.7, 'color_intensity': 10.5, 'hue': 0.96, 'od280_od315_of_diluted_wines': 2.0, 'proline': 1280.0} → Predicción: 2.0
+2025-03-28 04:50:14,685 - INFO - t=2025-03-28T04:50:14+0000 lvl=info msg="join connections" obj=join id=03f44bdaf728 l=127.0.0.1:8000 r=54.86.50.139:41956
+2025-03-28 04:50:14,696 - INFO - Entrada: {'alcohol': 13.4, 'malic_acid': 4.3, 'ash': 2.5, 'alcalinity_of_ash': 22.5, 'magnesium': 118.0, 'total_phenols': 0.9, 'flavanoids': 0.2, 'nonflavanoid_phenols': 0.43, 'proanthocyanins': 1.95, 'color_intensity': 13.2, 'hue': 0.55, 'od280_od315_of_diluted_wines': 1.5, 'proline': 750.0} → Predicción: 2.0
+2025-03-28 04:52:46,484 - INFO - t=2025-03-28T04:52:46+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-03-28 04:52:46,485 - INFO - t=2025-03-28T04:52:46+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
