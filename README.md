@@ -30,27 +30,27 @@ Una vez desplegada, la API se pudo probar en: [https://fe6b-34-150-163-63.ngrok-
 
 6. Implementación de una API REST con FastAPI
 7. Exposición pública de la API usando pyngrok
-![image](https://github.com/user-attachments/assets/58e73c00-94bb-49d2-a532-47e18805c99a)
-![image](https://github.com/user-attachments/assets/9b7f4358-02b5-4670-aa31-7a828afca1cc)
-![image](https://github.com/user-attachments/assets/68af512a-3df6-406c-a7ca-c4a4287b1caf)
+
+![image](https://github.com/user-attachments/assets/b4963720-e5e4-4ca7-955c-51d60255c496)
+
+![image](https://github.com/user-attachments/assets/75ca8249-0e1e-4f46-b947-9b464001cc53)
+
+![image](https://github.com/user-attachments/assets/577a68aa-2f8f-49f6-8fab-9f75fa805fd0)
+
 8. Pruebas con Postman
 Después de hacer el respectivo endpoint se hacen diferentes tipos de soolicitudes con el fin de
 conocer si el modelo de random forest llega a predecir de manera clara y efectiva el tipo de vino.
   - Primera solicitud desde postman: Tipo de vino 0 (alta intensidad de color y flavonoides)
-![image](https://github.com/user-attachments/assets/d058a703-90d3-40a0-9718-f7e59457dc8e)
+![image](https://github.com/user-attachments/assets/7c3c245c-5407-4512-9c82-8ffb1d084eaf)
 
   - Segunda solicitud desde postman: Tipo de vino 1 (bajo contenido fenólico)
-![image](https://github.com/user-attachments/assets/eb2d8b04-ca5b-41e2-ae19-699af7ee7595)
+![image](https://github.com/user-attachments/assets/85d687c4-76c1-443b-a9ca-f36d3d08f8cc)
 
 - Tercera solicitud desde postman: Tipo de vino 2 (alto contenido de alcohol y color)
-![image](https://github.com/user-attachments/assets/e1148303-1d8c-4d74-a300-afd60ea03997)
+![image](https://github.com/user-attachments/assets/45e6df25-d8d7-4337-b841-60edeeba8f72)
 
 - Cuarta solicitud desde postman:
-![image](https://github.com/user-attachments/assets/0a6b320a-2ec3-4b91-9444-8c0339bd6c60)
+![image](https://github.com/user-attachments/assets/189bd621-05e9-4d19-89ac-a0619d8ce9bc)
 
 Vista final desde el Colab
-![image](https://github.com/user-attachments/assets/ba702174-511f-42c9-9058-49c837023d15)
-
-
-
-
+![image](https://github.com/user-attachments/assets/f066c7e6-6815-4da2-932d-fb03ee4dcf5e)
