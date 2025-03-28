@@ -28,7 +28,7 @@ Una vez desplegada, la API se pudo probar en: [https://fe6b-34-150-163-63.ngrok-
 
 ![image](https://github.com/user-attachments/assets/049191dc-a8ab-4938-b174-3a1b6a87212e)
 
-6. Implementación de una API REST con FastAPI
+6. Implementación de una API REST con FastAPI (Antes de esta implementación se ha puesto un logging con el fin de tener un registro automático de cada 1 de los eventos que ocurren durante la ejecución de la aplicación, con el fin de tener una identificación de ciertos patrones anómalos, corregir errores internos y tener un seguimiento de uso para cierta auditoría o debugging.)
 7. Exposición pública de la API usando pyngrok
 
 ![image](https://github.com/user-attachments/assets/b4963720-e5e4-4ca7-955c-51d60255c496)
