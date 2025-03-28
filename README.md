@@ -19,27 +19,37 @@ Convertir un modelo de Machine Learning en un **servicio web accesible** mediant
 Se utilizó **`pyngrok`** para crear un **túnel público** que expone la API de forma segura y accesible desde cualquier navegador o herramienta como Postman.
 
 ## 🌐 API Endpoint
-Una vez desplegada, la API se pudo probar en: https://fe6b-34-150-163-63.ngrok-free.app/predecir/
+Una vez desplegada, la API se pudo probar en: [https://fe6b-34-150-163-63.ngrok-free.app/predecir/](https://b4cd-34-150-163-63.ngrok-free.app/predecir/)
 
 ## 🛠️ Flujo de trabajo
 1. Preprocesamiento y escalado de datos
 3. Entrenamiento del modelo Random Forest
 4. Guardado del modelo y el escalador
-5. Implementación de una API REST con FastAPI
-6. Exposición pública de la API usando pyngrok
+![image](https://github.com/user-attachments/assets/049191dc-a8ab-4938-b174-3a1b6a87212e)
+
+6. Implementación de una API REST con FastAPI
+7. Exposición pública de la API usando pyngrok
 ![image](https://github.com/user-attachments/assets/58e73c00-94bb-49d2-a532-47e18805c99a)
 ![image](https://github.com/user-attachments/assets/9b7f4358-02b5-4670-aa31-7a828afca1cc)
 ![image](https://github.com/user-attachments/assets/68af512a-3df6-406c-a7ca-c4a4287b1caf)
-8. Pruebas con Postman y documentación Swagger
-Primera solicitud desde postman: Tipo de vino 0 (alta intensidad de color y flavonoides)
+8. Pruebas con Postman
+Después de hacer el respectivo endpoint se hacen diferentes tipos de soolicitudes con el fin de
+conocer si el modelo de random forest llega a predecir de manera clara y efectiva el tipo de vino.
+  - Primera solicitud desde postman: Tipo de vino 0 (alta intensidad de color y flavonoides)
 ![image](https://github.com/user-attachments/assets/d058a703-90d3-40a0-9718-f7e59457dc8e)
 
-Segunda solicitud desde postman: Tipo de vino 1 (bajo contenido fenólico)
+  - Segunda solicitud desde postman: Tipo de vino 1 (bajo contenido fenólico)
 ![image](https://github.com/user-attachments/assets/eb2d8b04-ca5b-41e2-ae19-699af7ee7595)
 
-Tercera solicitud desde postman: Tipo de vino 2 (alto contenido de alcohol y color)
+- Tercera solicitud desde postman: Tipo de vino 2 (alto contenido de alcohol y color)
 ![image](https://github.com/user-attachments/assets/e1148303-1d8c-4d74-a300-afd60ea03997)
+
+- Cuarta solicitud desde postman:
 ![image](https://github.com/user-attachments/assets/0a6b320a-2ec3-4b91-9444-8c0339bd6c60)
+
+Vista final desde el Colab
+![image](https://github.com/user-attachments/assets/ba702174-511f-42c9-9058-49c837023d15)
+
 
 
 
