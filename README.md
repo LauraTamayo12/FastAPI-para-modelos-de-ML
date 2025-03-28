@@ -23,14 +23,15 @@ Una vez desplegada, la API se pudo probar en: https://d641-34-150-163-63.ngrok-f
 
 ## 🛠️ Flujo de trabajo
 1. Preprocesamiento y escalado de datos
-![image](https://github.com/user-attachments/assets/c1cf3ce4-7fe2-4cf3-9289-c7d850a9e28b)
-
-  
 3. Entrenamiento del modelo Random Forest
 4. Guardado del modelo y el escalador
 5. Implementación de una API REST con FastAPI
 6. Exposición pública de la API usando pyngrok
-7. Pruebas con Postman y documentación Swagger
+![image](https://github.com/user-attachments/assets/3223ece9-bdd5-44d4-b903-e8d64250ec10)
+8. Pruebas con Postman y documentación Swagger
+![image](https://github.com/user-attachments/assets/b1fd52fb-efe1-4b97-ad07-db5a213924fc)
+
+
 
 ---
 
